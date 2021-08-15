@@ -1,0 +1,205 @@
+
+
+
+
+:root{
+    --main-title-color: #212121;
+    --secondary-title-color: #ffffff;
+    --main-text-color: #757575;
+    --accent-color: #2196F3;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.list { list-style: none;
+}
+
+.link { text-decoration: none;
+}
+
+.button:hover,
+.button:focus{
+background: rgba(0,0,0,0);
+color :var(--accent-color);
+box-shadow: inset 0 0 0 3px #ffffff;
+}
+
+
+/*section navigation*/
+
+.web{
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color:var(--accent-color)
+}
+
+.studio-header{
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color: #000000;
+}
+
+.header-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+color:var(--main-title-color)
+}
+
+.header-link:hover,
+.header-link:focus{
+color:var(--accent-color)
+}
+
+.header-mailto {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+color:var(--main-text-color)
+}
+
+.header-mailto:hover,
+.header-mailto:focus{
+color:var(--accent-color)
+}
+
+.header-tel {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+color:var(--main-text-color)
+}
+
+.header-tel:hover,
+.header-tel:focus{
+color:var(--accent-color)
+}
+
+ /*section hero*/
+
+ .hero{
+     background: #2F303A;
+ }
+
+.hero-text{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+text-transform: uppercase;
+color: var(--secondary-title-color);
+}
+
+.hero-button{
+    background: #2196F3;
+    color: #ffffff;
+}
+   
+
+ /*section information*/
+
+.information-title{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+
+}
+
+.information-text{
+font-size: 14px;
+line-height: 1.71;
+color: var(--main-text-color);
+}
+
+ /*section work*/
+
+.work-title{
+    color: var(--main-title-color);
+}
+
+ /*section our team*/
+
+ .team-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+color: var(--main-title-color);
+ }
+.team-name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+color: var(--main-title-color);
+}
+
+.team-proffession{
+    font-size: 16px;
+line-height: 19px;
+color: var(--main-text-color);
+}
+
+.footer{
+    background-color: #2F303A;
+}
+
+.studio-footer{
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+color: #ffffff;
+}
+
+.footer-link{
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+color: var(--secondary-title-color);
+}
+
+.footer-mailto{
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-mailto:hover,
+.footer-mailto:focus{
+color:var(--accent-color)
+}
+
+.footer-tel{
+ font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel:hover,
+.footer-tel:focus{
+color:var(--accent-color)
+}
+
+ /*Портфолио  section our products*/
+
+ 
+.product-item{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+color: var(--main-title-color);
+}
+
+.product-text{
+font-size: 16px;
+line-height: 1.87;
+color: var(--main-text-color);
+}
