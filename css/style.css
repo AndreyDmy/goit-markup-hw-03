@@ -47,6 +47,10 @@ color: #ffffff;
 }
 .button{
     margin-left: 8px;
+    padding: 6px 22px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border:none;
 }
 
 /*section navigation*/
@@ -66,6 +70,7 @@ color: #ffffff;
 .header{
     padding-top: 24px;
     padding-bottom: 24px;
+   border: 1px solid #ECECEC;;
 }
 
 
@@ -140,22 +145,25 @@ color:var(--accent-color)
 
  /*section hero*/
 
- .hero{
+ 
+.hero{
      background: #2F303A;
+     width: 1200px;
+     margin: 0 auto;
+     padding-left: 15px;
+     padding-right: 15px;
      }
 
-    
 .hero-text{
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-color: var(--secondary-title-color);
-text-align: center;
-padding: 0 452px 15px 452px;
-
+    text-align: center;
+    margin-bottom: 30px;
+   color: var(--secondary-title-color);
 }
 
 .hero-button{
+display: block;
+ margin-left: auto;
+ margin-right: auto;
  background: #2196F3;
  color: #ffffff;
  padding-top: 10px;
@@ -165,10 +173,9 @@ padding: 0 452px 15px 452px;
  border-radius: 4px;
  width: 200px;
  height: 50px;
- display: block;
- margin-left: auto;
- margin-right: auto;
-}
+ border: none;
+ 
+} 
 
  /*section information*/
 
@@ -187,20 +194,34 @@ padding: 0 452px 15px 452px;
     justify-content: space-between;
 }
 
+.information-text{
+font-size: 14px;
+line-height: 1.71;
+color: var(--main-text-color);
+letter-spacing: 0.03em;}
 .information-item:not(:last-child){
 margin-right: 30px;
 }
 
 .information-title{
   padding-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
 }
 
  /*section work*/
+.work{
+    margin-top: -95px;
+}
 
 .work-title{
     color: var(--main-title-color);
     text-align: center;
     margin-bottom: 50px;
+    font-size: 36px;
 }
 
 .work-list{
@@ -216,9 +237,14 @@ margin-right: 30px;
 
  /*section our team*/
 
+ .team{
+     background-color: #F5F4FA;
+     margin-top: -95px;
+ }
 .team-title{
     text-align: center;
     margin-bottom: 50px;
+    font-size: 36px;
 }
 
 .team-list{
@@ -319,8 +345,9 @@ font-size: 18px;
 line-height: 2;
 color: var(--main-title-color);
 margin-top: 20px;
-text-align: center;
-
+text-align: left;
+padding-left: 24px;
+padding-right: 24px;
 }
 
 .product-text{
@@ -328,7 +355,9 @@ font-size: 16px;
 line-height: 1.87;
 color: var(--main-text-color);
 margin-top: 4px;
-text-align: center;
+text-align: left;
+padding-bottom: 20px;
+padding-left: 24px;
 
 }
 .nav{
@@ -338,13 +367,12 @@ text-align: center;
 
 .nav-list{
     display: flex;
-    padding-top: 94px;
     margin-left: 272px;
 }
 
 .product-list{
     display: flex;
-    padding-top: 50px;
+    padding-top: 34px;
   flex-wrap: wrap;
   
 }
