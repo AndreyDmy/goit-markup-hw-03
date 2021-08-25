@@ -77,6 +77,7 @@ color: #ffffff;
 .header-list, .header-navigation{
 display: flex;
 align-items: center;
+padding-left: 0px;
 }
 .header-item:not(:last-child){
     margin-right: 50px;
@@ -87,6 +88,8 @@ align-items: center;
     display: flex;
     align-items: center;
     margin-left: auto;
+    margin-left: 331px;
+    padding-left: 0;
 }
 
 .header-logo{
@@ -116,6 +119,9 @@ color:var(--main-title-color)
 .header-link:hover,
 .header-link:focus{
 color:var(--accent-color)
+}
+.active { 
+ color:#2196F3;  
 }
 
 .header-mailto {
@@ -148,7 +154,6 @@ color:var(--accent-color)
  
 .hero{
      background: #2F303A;
-     width: 1200px;
      margin: 0 auto;
      padding-left: 15px;
      padding-right: 15px;
@@ -158,6 +163,9 @@ color:var(--accent-color)
     text-align: center;
     margin-bottom: 30px;
    color: var(--secondary-title-color);
+   text-transform: uppercase;
+   font-size: 44px;
+   line-height: 1.36;
 }
 
 .hero-button{
@@ -192,6 +200,7 @@ display: block;
 .information-list{
     display: flex;
     justify-content: space-between;
+    padding-left: 0;
 }
 
 .information-text{
@@ -226,9 +235,14 @@ margin-right: 30px;
 
 .work-list{
     display: flex;
+    padding-bottom: 94px;
+    text-align: center;
+    padding-left: 0;
+    
 }
 .work-item{
     width: 370px;
+    
 }
 .work-item:not(:last-child){
  margin-right: 30px;
@@ -245,14 +259,22 @@ margin-right: 30px;
     text-align: center;
     margin-bottom: 50px;
     font-size: 36px;
+    color: var(--main-title-color);
 }
 
 .team-list{
     display: flex;
+    padding-left: 0;
+    text-align: center;
+    
 }
 
 .team-item{
     width: 270px;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+
 }
 .team-item:not(:last-child){
  margin-right: 30px;
@@ -262,15 +284,14 @@ margin-right: 30px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    
+    color: #212121;
     padding-top: 30px;
 }
 .team-proffession{
     text-align: center;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
-padding-top: 10px;
+    padding-top: 10px;
+    color: #757575;
 }
 
 
@@ -370,20 +391,32 @@ padding-left: 24px;
     margin-left: 272px;
 }
 
-.product-list{
+.product-list:nth-child(3n + 1){
     display: flex;
-    padding-top: 34px;
+    padding-top: 50px;
+    padding-left: 0;
   flex-wrap: wrap;
-  
 }
+  
+
 .item{
     border: 1px solid #EEEEEE;
     flex-basis: calc(104% / 3 - 50px);
-    margin-left: 30px;
-    margin-top: 30px;
+   
 }
+ 
+.images{
+    display: block;
+  height: auto;
+  width: 100%;
+
+}
+
     
-.text-decoration{
-    text-decoration: none;
+.item:not(:nth-child(3n)){
+  margin-right: 30px;}
+
+.item:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
 }
 
