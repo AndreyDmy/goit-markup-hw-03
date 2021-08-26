@@ -32,7 +32,8 @@ img {
 .list { list-style: none;
 }
 
-.link { text-decoration: none;
+.link, .text-decoration 
+{ text-decoration: none;
 }
 .hero, .information, .work, .team, .product {
     padding-top: 94px;
@@ -157,6 +158,11 @@ color:var(--accent-color)
      margin: 0 auto;
      padding-left: 15px;
      padding-right: 15px;
+     }
+
+     .hero-item{
+         padding-top: 106px;
+         padding-bottom: 106px;
      }
 
 .hero-text{
